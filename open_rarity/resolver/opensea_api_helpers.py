@@ -21,8 +21,8 @@ from open_rarity.resolver.models.collection_with_metadata import CollectionWithM
 logger = logging.getLogger("open_rarity_logger")
 
 # https://docs.opensea.io/reference/retrieving-a-single-collection
-OS_COLLECTION_URL = "https://api.opensea.io/api/v1/collection/{slug}"
-OS_ASSETS_URL = "https://api.opensea.io/api/v1/assets"
+OS_COLLECTION_URL = "https://api.opensea.io/api/v2/collection/{slug}"
+OS_ASSETS_URL = "https://api.opensea.io/api/v2/assets"
 
 HEADERS = {
     "Accept": "application/json",
